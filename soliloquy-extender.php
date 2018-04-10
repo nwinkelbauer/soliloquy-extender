@@ -109,6 +109,25 @@ function my_header_scripts(){
         background-repeat: repeat;
         background-attachment: scroll;
     }
+    #soliloquy-container-4 .soliloquy-wrapper:after {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0; 
+        /*background-image: url("http://localhost:8888/wp-content/uploads/2018/02/foreground_large.png");*/
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        background-position: bottom center;
+        z-index: 2;
+    }
+    #soliloquy-container-4 .slide-overlay .soliloquy-image {
+        /*opacity: 0.6;*/
+    }
   </style> 
   <?php
 }

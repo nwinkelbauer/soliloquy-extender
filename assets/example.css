@@ -1,4 +1,4 @@
-#soliloquy-container-4 .soliloquy-wrapper:after {
+/*#soliloquy-container-4 .soliloquy-wrapper:after {
 content: "";
 display: block;
 width: 100%;
@@ -16,4 +16,11 @@ z-index: 2;
 }
 #soliloquy-container-4 .slide-overlay .soliloquy-image {
 opacity: 0.6;
+}*/
+
+#soliloquy-container-4 .soliloquy-wrapper:after {
+    background-image: url("http://localhost:8888/wp-content/uploads/2018/02/foreground_large.png");
+}
+#soliloquy-container-4 .slide-overlay .soliloquy-image {
+    opacity: 0.6;
 }
