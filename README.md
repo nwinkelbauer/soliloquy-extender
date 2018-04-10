@@ -1,11 +1,10 @@
 # Soliloquy plugin - homepage slider extension
-## TheMandagies.com
+#### TheMandagies.com
 
 This plugin adds a foreground image to the homepage slider then positions the logo to slide between the two layers on scroll. 
 
-****
 
-# Installation
+## Installation
  - Enable Soliloquy Plugin
  - Set up plugin as intended for Refined Theme home page set-up
    - [Refined Theme Installation Guide](https://docs.restored316.com/article/693-refined-slider-setup)
