@@ -44,6 +44,8 @@ function my_header_scripts(){
   <script>
     window.onload = function(){
         var body = document.getElementsByTagName("body")[0];
+        var isMobile = (window.innerWidth < 600);
+        var spacer = ( !isMobile ) ? 50 : 10;
         if (body.classList.contains("home")){
             //logo
             var logoPath = "<?php echo plugin_dir_url( __FILE__ ) . 'assets/the-mandagies-1024x328.png'; ?>";
@@ -64,7 +66,7 @@ function my_header_scripts(){
             
             //auto set height of logo based of header
             var height = document.getElementsByClassName("home-slider-container")[0].offsetTop;
-            document.getElementById("header-logo").style.top = (height + 50) + "px";
+            document.getElementById("header-logo").style.top = (height + spacer) + "px";
         }
         //console.log(body);
     }
