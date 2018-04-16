@@ -98,7 +98,8 @@ function my_header_scripts(){
         -webkit-transition: all 1s ease-in;
         transition: all 1s ease-in;
     }
-    header.site-header {
+    header.site-header,
+    nav.nav-footer {
         z-index: 1;
         position: relative;
     }
